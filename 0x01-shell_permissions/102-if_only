@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello
+chown echo $(echo $(stat --format=%U hello) | tr "guillaume" "betty    " | tr -d " ") hello
