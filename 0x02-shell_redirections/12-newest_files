@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -c | tr -d '\t'
+ls -c | tr -d '\t' | head
