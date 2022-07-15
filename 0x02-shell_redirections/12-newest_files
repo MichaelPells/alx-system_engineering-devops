@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ac | tr '\t' '\n'
+ls -c | tr -d '\t'
